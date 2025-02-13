@@ -1,0 +1,158 @@
+[
+    {
+        "name": "google\/recaptcha",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https:\/\/github.com\/google\/recaptcha.git",
+            "reference": "f911286ad361c9fba1b422c07f040852c0c193a3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https:\/\/api.github.com\/repos\/google\/recaptcha\/zipball\/f911286ad361c9fba1b422c07f040852c0c193a3",
+            "reference": "f911286ad361c9fba1b422c07f040852c0c193a3",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5"
+        },
+        "require-dev": {
+            "friendsofphp\/php-cs-fixer": "^2.2.20|^2.15",
+            "php-coveralls\/php-coveralls": "^2.1",
+            "phpunit\/phpunit": "^4.8.36|^5.7.27|^6.59|^7.5.11"
+        },
+        "time": "2020-10-01T15:14:41+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.2.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "WP_Ultimo_Captcha\\Dependencies\\ReCaptcha\\": "src\/ReCaptcha"
+            }
+        },
+        "notification-url": "https:\/\/packagist.org\/downloads\/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": "Client library for reCAPTCHA, a free service that protects websites from spam and abuse.",
+        "homepage": "https:\/\/www.google.com\/recaptcha\/",
+        "keywords": [
+            "Abuse",
+            "captcha",
+            "recaptcha",
+            "spam"
+        ]
+    },
+    {
+        "name": "pablo-sg-pacheco\/wp-namespace-autoloader",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https:\/\/github.com\/pablo-sg-pacheco\/wp-namespace-autoloader.git",
+            "reference": "015c9654459fd267cf12fa7846d3bf36b11c3bd7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https:\/\/api.github.com\/repos\/pablo-sg-pacheco\/wp-namespace-autoloader\/zipball\/015c9654459fd267cf12fa7846d3bf36b11c3bd7",
+            "reference": "015c9654459fd267cf12fa7846d3bf36b11c3bd7",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "cweagans\/composer-patches": "^1.0",
+            "dealerdirect\/phpcodesniffer-composer-installer": "0.7.0",
+            "phpunit\/phpunit": "^7",
+            "squizlabs\/php_codesniffer": "dev-master",
+            "wp-coding-standards\/wpcs": "^2.3"
+        },
+        "time": "2021-02-27T19:04:16+00:00",
+        "type": "library",
+        "extra": {
+            "patches": {
+                "squizlabs\/php_codesniffer": {
+                    "Add GitHub Actions Annotations report type": "https:\/\/github.com\/squizlabs\/PHP_CodeSniffer\/pull\/2918.patch"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "WP_Ultimo_Captcha\\Dependencies\\Pablo_Pacheco\\WP_Namespace_Autoloader\\": "src"
+            }
+        },
+        "notification-url": "https:\/\/packagist.org\/downloads\/",
+        "license": [
+            "GPLv2"
+        ],
+        "authors": [
+            {
+                "name": "Pablo dos S G Pacheco",
+                "email": "pablo.sg.pacheco@gmail.com"
+            }
+        ],
+        "description": "A PHP autoloader class that follows the WordPress coding standards for class names and class filenames",
+        "homepage": "https:\/\/github.com\/pablo-pacheco\/wp-namespace-autoloader",
+        "keywords": [
+            "autoload",
+            "namespace",
+            "wordpress",
+            "wp"
+        ]
+    },
+    {
+        "name": "yahnis-elsts\/plugin-update-checker",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https:\/\/github.com\/YahnisElsts\/plugin-update-checker.git",
+            "reference": "a5dd2bb951345966d6432d4e0b54cdf844e0e82e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https:\/\/api.github.com\/repos\/YahnisElsts\/plugin-update-checker\/zipball\/a5dd2bb951345966d6432d4e0b54cdf844e0e82e",
+            "reference": "a5dd2bb951345966d6432d4e0b54cdf844e0e82e",
+            "shasum": ""
+        },
+        "require": {
+            "ext-json": "*",
+            "php": ">=5.2.0"
+        },
+        "time": "2021-09-23T15:11:12+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "load-v4p11.php"
+            ]
+        },
+        "notification-url": "https:\/\/packagist.org\/downloads\/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Yahnis Elsts",
+                "email": "whiteshadow@w-shadow.com",
+                "homepage": "http:\/\/w-shadow.com\/",
+                "role": "Developer"
+            }
+        ],
+        "description": "A custom update checker for WordPress plugins and themes. Useful if you can't host your plugin in the official WP repository but still want it to support automatic updates.",
+        "homepage": "https:\/\/github.com\/YahnisElsts\/plugin-update-checker\/",
+        "keywords": [
+            "automatic updates",
+            "plugin updates",
+            "theme updates",
+            "wordpress"
+        ]
+    }
+]

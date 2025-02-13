@@ -1,0 +1,202 @@
+# Copyright (C) 2022 NextPress
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Ultimo: WooCommerce Integration 2.0.0\n"
+"Report-Msgid-Bugs-To: arindo+translation@wpultimo.com\n"
+"POT-Creation-Date: 2022-08-05 18:34:42+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: inc/class-requirements.php:337
+#. translators: the %1$s placeholder is the required PHP version, while the
+#. %2$s is the current PHP version.
+msgid ""
+"WP Ultimo - WooCommerce Gateways requires at least PHP version %1$s to run. "
+"Your current PHP version is <strong>%2$s</strong>. Please, contact your "
+"hosting company support to upgrade your PHP version. If you want maximum "
+"performance consider upgrading your PHP to version 7.0 or later."
+msgstr ""
+
+#: inc/class-requirements.php:354
+#. translators: the %1$s placeholder is the required WP version, while the %2$s
+#. is the current WP version.
+msgid ""
+"WP Ultimo - WooCommerce Gateways requires at least WordPress version %1$s "
+"to run. Your current WordPress version is <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/class-requirements.php:368
+msgid ""
+"WP Ultimo - WooCommerce Gateways requires a multisite install to run "
+"properly. To know more about WordPress Networks, visit this link: <a "
+"href=\"https://wordpress.org/support/article/create-a-network/\">Create a "
+"Network &rarr;</a>"
+msgstr ""
+
+#: inc/class-requirements.php:383
+#. translators: %s is a placeholder for the Network Admin plugins page URL.
+msgid ""
+"WP Ultimo - WooCommerce Gateways needs to be network active to run "
+"properly. You can \"Network Activate\" it <a href=\"%s\">here</a>"
+msgstr ""
+
+#: inc/class-requirements.php:398
+#. translators: the %1$s placeholder is the required WP Ultimo version.
+msgid ""
+"WP Ultimo - WooCommerce Gateways requires WP Ultimo version %1$s or later "
+"to be installed and activated to run."
+msgstr ""
+
+#: inc/class-requirements.php:412
+#. translators: the %1$s placeholder is the required WP Ultimo version.
+msgid ""
+"WP Ultimo - WooCommerce Gateways requires WooCommerce version %1$s or later "
+"to be installed and activated at least on the main site to run."
+msgstr ""
+
+#: inc/class-wp-ultimo-woocommerce.php:119
+#: inc/gateways/class-woocommerce-gateway.php:334
+#: inc/managers/class-top-menu-manager.php:56
+msgid "WooCommerce"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Accept payments using any of the hundreds of payment gateways available for "
+"WooCommerce and WooCommerce Subscriptions."
+msgstr ""
+
+#: inc/gateways/class-woocommerce-gateway.php:321
+#: inc/gateways/class-woocommerce-gateway.php:347
+msgid "Other Payment Methods"
+msgstr ""
+
+#: inc/gateways/class-woocommerce-gateway.php:335
+msgid "Use the settings section below to configure WooCommerce as a payment method."
+msgstr ""
+
+#: inc/gateways/class-woocommerce-gateway.php:344
+msgid "WooCommerce Public Name"
+msgstr ""
+
+#: inc/gateways/class-woocommerce-gateway.php:345
+msgid ""
+"The name to display on the payment method selection field. By default, "
+"\"Other Payment Methods\" is used."
+msgstr ""
+
+#: inc/gateways/class-woocommerce-gateway.php:354
+msgid "WooCommerce Message"
+msgstr ""
+
+#: inc/gateways/class-woocommerce-gateway.php:355
+msgid ""
+"This will be displayed to the customer on the checkout form, above the "
+"submit button."
+msgstr ""
+
+#: inc/gateways/class-woocommerce-gateway.php:357
+#: inc/gateways/class-woocommerce-gateway.php:765
+msgid ""
+"You'll be able to select a payment method and enter your payment details on "
+"the next page."
+msgstr ""
+
+#: inc/gateways/class-woocommerce-gateway.php:370
+msgid "Enable WooCommerce Subscription Integration"
+msgstr ""
+
+#: inc/gateways/class-woocommerce-gateway.php:371
+msgid ""
+"If you enable this option, WP Ultimo will use WooCommerce Subscriptions to "
+"handle billing instead of using plain WooCommerce Orders."
+msgstr ""
+
+#: inc/gateways/class-woocommerce-gateway.php:546
+msgid ""
+"There was an error while processing your subscription purchase. Please, "
+"contact the administrator."
+msgstr ""
+
+#: inc/gateways/class-woocommerce-gateway.php:675
+msgid "Provided ID is not a WC Order"
+msgstr ""
+
+#: inc/gateways/class-woocommerce-gateway.php:681
+msgid "Order has been already refunded"
+msgstr ""
+
+#: inc/gateways/class-woocommerce-gateway.php:822
+msgid "Go to the Membership on WP Ultimo"
+msgstr ""
+
+#: inc/gateways/class-woocommerce-gateway.php:1058
+#: inc/gateways/class-woocommerce-gateway.php:1060
+msgid "Subscription created by WP Ultimo"
+msgstr ""
+
+#: inc/gateways/class-woocommerce-gateway.php:1209
+msgid "Order created by WP Ultimo"
+msgstr ""
+
+#: inc/managers/class-top-menu-manager.php:60
+msgid "WooCommerce settings"
+msgstr ""
+
+#: inc/managers/class-top-menu-manager.php:67
+msgid "Home"
+msgstr ""
+
+#: inc/managers/class-top-menu-manager.php:68
+msgid "Orders"
+msgstr ""
+
+#: inc/managers/class-top-menu-manager.php:69
+msgid "Subscriptions"
+msgstr ""
+
+#: inc/managers/class-top-menu-manager.php:70
+msgid "Products"
+msgstr ""
+
+#: inc/managers/class-top-menu-manager.php:71
+msgid "Settings"
+msgstr ""
+
+#: inc/managers/class-top-menu-manager.php:89
+#. translators: %s is the page name.
+msgid "Go to the %s page"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Ultimo: WooCommerce Integration"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpultimo.com"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "NextPress"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://nextpress.co/"
+msgstr ""

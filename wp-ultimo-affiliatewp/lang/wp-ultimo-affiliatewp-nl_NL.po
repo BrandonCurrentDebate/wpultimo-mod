@@ -1,0 +1,96 @@
+# Translation of WP Ultimo: AffiliateWP Integration in Dutch
+# This file is distributed under the same license as the WP Ultimo: AffiliateWP Integration package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-12-29 22:24:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: nl\n"
+"Project-Id-Version: WP Ultimo: AffiliateWP Integration\n"
+
+#: ../inc/class-wu-recurring.php:42
+msgid "Recurring Referral - WP Ultimo. User ID: %s"
+msgstr "Terugkerende doorverwijzing - WP Ultimo. Gebruikers ID: %s"
+
+#: ../inc/class-wu-addon-updater.php:190
+msgid "Put the code you received alongside the add-on when you finalized your purchase."
+msgstr "Vul de licentiecode in die u hebt ontvangen naast de add-on toen u uw aankoop afrondde."
+
+#: ../inc/class-wu-addon-updater.php:179
+msgid "You have a golden ticket license. There's no need to activate each add-on individually."
+msgstr "Je hebt een gouden ticket. Het is niet nodig om iedere add-on apart te activeren."
+
+#: ../inc/class-wu-addon-updater.php:178 ../inc/class-wu-addon-updater.php:189
+msgid "License Key - %s"
+msgstr "Licentiecode - %s"
+
+#: ../inc/class-wu-addon-updater.php:163
+msgid "Use the license key you received with the add-on files to activate your copy and be notified of new versions automatically."
+msgstr "Gebruik de licentiecode die u bij de add-on bestanden hebt ontvangen om uw kopie te activeren en automatisch op de hoogte te worden gesteld van nieuwe versies."
+
+#: ../inc/class-wu-addon-updater.php:162
+msgid "Activate your Add-ons"
+msgstr "Activeer uw add-ons"
+
+#: ../inc/class-wu-addon-updater.php:123
+msgid "Status: Not Activated - Invalid License Key"
+msgstr "Status: Niet geactiveerd - Licentiecode ongeldig"
+
+#: ../inc/class-wu-addon-updater.php:117
+msgid "Status: License no longer valid - Refund issued"
+msgstr "Status: Licentie niet langer geldig - Restitutie is verleend"
+
+#: ../inc/class-wu-addon-updater.php:113
+msgid "Status: Activated"
+msgstr "Status: Geactiveerd"
+
+#: ../inc/class-wu-addon-updater.php:103
+msgid "Status: Activated - Golden Ticket"
+msgstr "Status: Geactiveerd - Gouden ticket"
+
+#: ../wp-ultimo-affiliatewp.php:435
+msgid "Referral status of #%s changed to \"Rejected\"."
+msgstr "Verwijzingsstatus van #%s is gewijzigd in \"Afgewezen'."
+
+#: ../wp-ultimo-affiliatewp.php:399
+msgid "Referral status of #%s changed to \"Unpaid\"."
+msgstr "Verwijzingsstatus van #%s is gewijzigd in \"Onbetaald'."
+
+#: ../wp-ultimo-affiliatewp.php:374 ../wp-ultimo-affiliatewp.php:422
+msgid "Referral not found"
+msgstr "Verwijzing niet gevonden"
+
+#: ../wp-ultimo-affiliatewp.php:329
+msgid "WP Ultimo Signup"
+msgstr "WP Ultimo aanmelding"
+
+#: ../wp-ultimo-affiliatewp.php:328
+msgid "wp-ultimo"
+msgstr "wp-ultimo"
+
+#: ../wp-ultimo-affiliatewp.php:272
+msgid "Referred user %s."
+msgstr "Doorverwezen gebruiker %s."
+
+#: ../wp-ultimo-affiliatewp.php:237
+msgid "Referred user %s via coupon code %s."
+msgstr "Doorverwezen gebruiker %s via kortingsbon %s."
+
+#: ../wp-ultimo-affiliatewp.php:161
+msgid "Select one Affiliate"
+msgstr "Selecteer een affiliate"
+
+#: ../wp-ultimo-affiliatewp.php:156
+msgid "Link this coupon to one of your affiliates."
+msgstr "Koppel deze kortingsbon aan een van uw affiliates."
+
+#: ../wp-ultimo-affiliatewp.php:155
+msgid "AffiliateWP Affiliate"
+msgstr "AffiliateWP Affiliate"
+
+#: ../wp-ultimo-affiliatewp.php:63
+msgid "WP Ultimo: AffiliateWP Integration"
+msgstr "WP Ultimo: AffiliateWP Integratie"

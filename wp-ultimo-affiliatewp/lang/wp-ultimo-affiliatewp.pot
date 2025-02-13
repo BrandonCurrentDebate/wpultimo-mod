@@ -1,0 +1,158 @@
+# Copyright (C) 2022 NextPress
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Ultimo: AffiliateWP Integration 2.0.0\n"
+"Report-Msgid-Bugs-To: arindo+translation@wpultimo.com\n"
+"POT-Creation-Date: 2022-08-05 18:07:09+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: inc/class-requirements.php:265
+#. translators: the %1$s placeholder is the required PHP version, while the
+#. %2$s is the current PHP version.
+msgid ""
+"WP Ultimo: AffiliateWP Integration requires at least PHP version %1$s to "
+"run. Your current PHP version is <strong>%2$s</strong>. Please, contact "
+"your hosting company support to upgrade your PHP version. If you want "
+"maximum performance consider upgrading your PHP to version 7.0 or later."
+msgstr ""
+
+#: inc/class-requirements.php:282
+#. translators: the %1$s placeholder is the required WP version, while the %2$s
+#. is the current WP version.
+msgid ""
+"WP Ultimo: AffiliateWP Integration requires at least WordPress version %1$s "
+"to run. Your current WordPress version is <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/class-requirements.php:296
+msgid ""
+"WP Ultimo: AffiliateWP Integration requires a multisite install to run "
+"properly. To know more about WordPress Networks, visit this link: <a "
+"href=\"https://wordpress.org/support/article/create-a-network/\">Create a "
+"Network &rarr;</a>"
+msgstr ""
+
+#: inc/class-requirements.php:311
+#. translators: %s is a placeholder for the Network Admin plugins page URL.
+msgid ""
+"WP Ultimo: AffiliateWP Integration needs to be network active to run "
+"properly. You can \"Network Activate\" it <a href=\"%s\">here</a>"
+msgstr ""
+
+#: inc/class-requirements.php:326
+#. translators: the %1$s placeholder is the required WP Ultimo version.
+msgid ""
+"WP Ultimo: AffiliateWP Integration requires WP Ultimo version %1$s or later "
+"to be installed and activated to run."
+msgstr ""
+
+#: inc/class-settings.php:32
+msgid "WP Ultimo Integration Options"
+msgstr ""
+
+#: inc/class-settings.php:33 inc/class-settings.php:34
+msgid "Allow commissions to be applied to the Setup Fees"
+msgstr ""
+
+#: inc/class-settings.php:35
+msgid ""
+"If you enable this option, WP Ultimo commissions will include the Setup "
+"Fees as well."
+msgstr ""
+
+#: inc/managers/class-affiliatewp-manager-recurring.php:117
+#: inc/managers/class-affiliatewp-manager.php:117
+msgid "AffiliateWP"
+msgstr ""
+
+#: inc/managers/class-affiliatewp-manager-recurring.php:118
+#: inc/managers/class-affiliatewp-manager.php:118
+msgid "Only customer-owned sites have limitations."
+msgstr ""
+
+#: inc/managers/class-affiliatewp-manager-recurring.php:123
+#: inc/managers/class-affiliatewp-manager.php:123
+msgid "AffiliateWP Affiliate"
+msgstr ""
+
+#: inc/managers/class-affiliatewp-manager-recurring.php:124
+#: inc/managers/class-affiliatewp-manager.php:124
+msgid "Link this coupon to one of your affiliates."
+msgstr ""
+
+#: inc/managers/class-affiliatewp-manager-recurring.php:129
+#: inc/managers/class-affiliatewp-manager.php:129
+msgid "Select an Affiliate"
+msgstr ""
+
+#: inc/managers/class-affiliatewp-manager-recurring.php:208
+#: inc/managers/class-affiliatewp-manager.php:208
+#. translators: name of the user
+msgid "Referred user %s."
+msgstr ""
+
+#: inc/managers/class-affiliatewp-manager-recurring.php:219
+#: inc/managers/class-affiliatewp-manager.php:219
+#. translators: first: customer hash id; second: coupon's code
+msgid "Referred user %1$s via coupon code %2$s."
+msgstr ""
+
+#: inc/managers/class-affiliatewp-manager-recurring.php:243
+#. translators: hash id of the customer
+msgid "New payment received from customer %s"
+msgstr ""
+
+#: inc/managers/class-affiliatewp-manager-recurring.php:257
+#. translators: first: referral id (number); second: new status name
+msgid "Referral status of %1$s changed to \"%2$s\"."
+msgstr ""
+
+#: inc/managers/class-affiliatewp-manager.php:249
+#. translators: first: referral id (number); second: new status name
+msgid "Referral status of %1$ss changed to \"%2$ss\"."
+msgstr ""
+
+#: wp-ultimo-affiliatewp.php:86
+msgid ""
+"WP Ultimo: AffiliateWP Integration requires <a target=\"_blank\" "
+"href=\"https://affiliatewp.com\">AffiliateWP</a> to be activated at least "
+"on your main site."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Ultimo: AffiliateWP Integration"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpultimo.com/addons"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Use the powerful AffiliateWP to grow the client base of your Ultimo Network!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "NextPress"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://nextpress.co/"
+msgstr ""

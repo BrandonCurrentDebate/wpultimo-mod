@@ -1,0 +1,306 @@
+# Translation of WP Ultimo: WooCommerce Integration in Spanish (Spain)
+# This file is distributed under the same license as the WP Ultimo: WooCommerce Integration package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-04-24 19:04:53+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: es\n"
+"Project-Id-Version: WP Ultimo: WooCommerce Integration\n"
+
+#: ../inc/class-wu-gateway-woocommerce.php:1753
+msgid "WooCommerce Integration"
+msgstr "Integración con WooCommerce"
+
+#: ../inc/class-wu-gateway-woocommerce.php:1731
+msgid "There was an error while processing your subscription purchase. Please, contact the administrator."
+msgstr "Hubo un error al procesar su compra de suscripción. Por favor, póngase en contacto con el administrador."
+
+#: ../inc/class-wu-gateway-woocommerce.php:1656
+#: ../inc/class-wu-gateway-woocommerce.php:1657
+msgid "Subscription created by WP Ultimo"
+msgstr "Suscripción creada por WP Ultimo"
+
+#: ../inc/class-wu-gateway-woocommerce.php:1512
+msgid "Pro-rate (Changed Plans)"
+msgstr "Pagar proporcionalmente (Planes Cambiados)"
+
+#: ../inc/class-wu-gateway-woocommerce.php:1424
+msgid "Go to your Site's Dashboard &rarr;"
+msgstr "Ir al panel de control de su sitio &rarr;"
+
+#: ../inc/class-wu-gateway-woocommerce.php:1308
+msgid "It seems that you have WooCommerce Subscriptions activated on your install. WP Ultimo: WooCommerce Integration can also integrate with WooCommerce Subscriptions. If you enable this option, WP Ultimo will use WooCommerce Subscriptions to handle billing instead of using plain WooCommerce Orders."
+msgstr "Parece que tienes suscripciones de WooCommerce activadas en tu instalación. WP Ultimo: La integración de WooCommerce también se puede integrar con las suscripciones de WooCommerce. Si habilita esta opción, WP Ultimo usará las suscripciones de WooCommerce para manejar la facturación en lugar de usar los pedidos simples de WooCommerce."
+
+#: ../inc/class-wu-gateway-woocommerce.php:1307
+msgid "Enable WooCommerce Subscription Integration"
+msgstr "Habilitar la integración de suscripción de WooCommerce"
+
+#: ../inc/class-wu-gateway-woocommerce.php:238
+#: ../inc/class-wu-gateway-woocommerce.php:384
+#: ../inc/class-wu-gateway-woocommerce.php:678
+msgid "Setup fee for Plan %s"
+msgstr "Cuota de configuración para el Plan %s"
+
+#: ../inc/class-wu-gateway-woocommerce.php:1753
+msgid "Extend your WP Ultimo payment options to allow your subscribers to use all of the many available methods on your WooCommerce install!"
+msgstr "Amplíe sus opciones de pago WP Ultimo para permitir que sus suscriptores utilicen todos los métodos disponibles en su instalación de WooCommerce!"
+
+#: ../inc/class-wu-gateway-woocommerce.php:1360
+msgid "After the subscription expires, how long should the system wait for the user to pay using one of the active WooCommerce Gateways?"
+msgstr "Después de que caduque la suscripción, ¿cuánto tiempo debe esperar el sistema para que el usuario pague utilizando una de las puertas de enlace de WooCommerce activas?"
+
+#: ../inc/class-wu-gateway-woocommerce.php:1359
+msgid "Waiting Days"
+msgstr "Días de espera"
+
+#: ../inc/class-wu-gateway-woocommerce.php:1351
+msgid "Select the tooltip to be used on the Integration button for this option. Leave blank to hide the tooltip icon."
+msgstr "Seleccione la información sobre herramientas que se usará en el botón Integración para esta opción. Deje en blanco para ocultar el icono de información sobre herramientas."
+
+#: ../inc/class-wu-gateway-woocommerce.php:1350
+msgid "Button Tooltip"
+msgstr "Botón con descripción emergente"
+
+#: ../inc/class-wu-gateway-woocommerce.php:1342
+msgid "Select the label to be used on the Integration button for this option."
+msgstr "Seleccione la etiqueta que se utilizará en el botón Integración para esta opción."
+
+#: ../inc/class-wu-gateway-woocommerce.php:1341
+msgid "Button Label"
+msgstr "Etiqueta del Botón"
+
+#: ../inc/class-wu-gateway-woocommerce.php:1333
+msgid "Select a display name to this particular Integration. The name you choose will be use when this option is presented to the user."
+msgstr "Seleccione un nombre para mostrar para esta integración en particular. El nombre que elija se usará cuando esta opción se presente al usuario."
+
+#: ../inc/class-wu-gateway-woocommerce.php:1332
+msgid "Integration Name"
+msgstr "Nombre de integración"
+
+#: ../inc/class-wu-gateway-woocommerce.php:1114
+msgid "You need to select a valid frequency to change to."
+msgstr "Debe seleccionar una frecuencia válida para cambiar a."
+
+#: ../inc/class-wu-gateway-woocommerce.php:1108
+#: ../inc/class-wu-gateway-woocommerce.php:1126
+msgid "You need to select a valid plan to change to."
+msgstr "Debe seleccionar un plan válido para cambiar."
+
+#: ../inc/class-wu-gateway-woocommerce.php:1103
+msgid "You don't have permissions to perform this action."
+msgstr "No tiene suficientes permisos para realizar esta acción."
+
+#: ../inc/class-wu-gateway-woocommerce.php:1015
+msgid "Order has been already refunded"
+msgstr "El pedido ya ha sido devuelto"
+
+#: ../inc/class-wu-gateway-woocommerce.php:1011
+msgid "Provided ID is not a WC Order"
+msgstr "El ID proporcionado no es una orden de WC"
+
+#: ../inc/class-wu-gateway-woocommerce.php:993
+msgid "We were not able to refund the WooCommerce Order: %s"
+msgstr "No pudimos reembolsar el pedido de WooCommerce: %s"
+
+#: ../inc/class-wu-gateway-woocommerce.php:986
+msgid "Refund issued successfully. It should appear on this panel shortly."
+msgstr "Reembolso emitido con éxito. Debería aparecer en este panel en breve."
+
+#: ../inc/class-wu-gateway-woocommerce.php:965
+msgid "A refund was issued to your account. Payment reference %s."
+msgstr "Se emitió un reembolso a su cuenta. Referencia de pago %s."
+
+#: ../inc/class-wu-gateway-woocommerce.php:963
+msgid "User ID: %s - WooCommerce Payment \"%s\" received: You refunded the payment with %s."
+msgstr "ID de usuario: %s - Pago de WooCommerce \"%s\" recibido: Usted reembolsó el pago con %s."
+
+#: ../inc/class-wu-gateway-woocommerce.php:922
+msgid "A valid amount is necessary."
+msgstr "Una cantidad válida es necesaria."
+
+#: ../inc/class-wu-gateway-woocommerce.php:886
+#: ../inc/class-wu-gateway-woocommerce.php:1353
+#: ../inc/class-wu-gateway-woocommerce.php:1354
+msgid "By choosing dynamic payments, you will receive an invoice every billing period with a link for a payment form. You'll be able to use different payment options. Once that payment is confirmed by the payment processor chosen, your subscription will be renewed."
+msgstr "Al elegir pagos dinámicos, recibirá una factura cada período de facturación con un enlace para un formulario de pago. Podrás utilizar diferentes opciones de pago. Una vez que el procesador de pagos elegido confirme el pago, se renovará su suscripción."
+
+#: ../inc/class-wu-gateway-woocommerce.php:881
+#: ../inc/class-wu-gateway-woocommerce.php:1344
+#: ../inc/class-wu-gateway-woocommerce.php:1345
+msgid "Use Dynamic Payments"
+msgstr "Usar pagos dinámicos"
+
+#: ../inc/class-wu-gateway-woocommerce.php:868
+msgid "On Hold"
+msgstr "En espera"
+
+#: ../inc/class-wu-gateway-woocommerce.php:772
+msgid "WP Ultimo Order paid automatically due to user credit."
+msgstr "Orden WP Ultimo pagada automáticamente debido al crédito del usuario."
+
+#: ../inc/class-wu-gateway-woocommerce.php:761
+#: ../inc/class-wu-gateway-woocommerce.php:1572
+#: ../inc/class-wu-gateway-woocommerce.php:1669
+msgid "Payment for the plan %s using %s as the processor."
+msgstr "Pago por el plan %s usando %s como el procesador."
+
+#: ../inc/class-wu-gateway-woocommerce.php:697
+msgid "Order created by WP Ultimo"
+msgstr "Pedido creado por WP Ultimo"
+
+#: ../inc/class-wu-gateway-woocommerce.php:639
+msgid "%s, paid every %s month(s)."
+msgstr "%s, pagado cada %s mes(es)."
+
+#: ../inc/class-wu-gateway-woocommerce.php:639
+msgid "Plan"
+msgstr "Plan"
+
+#: ../inc/class-wu-gateway-woocommerce.php:539
+msgid ""
+"Hi, {{user_name}}. <br><br>\n"
+"    Here is the invoice for your subscription on {{site_name}}. The invoice is due on {{due_date}}. You can use the button below to pay it. Let us know if you have any questions.<br><br>\n"
+"    <a href='{{payment_link}}'>Click here to Pay</a>\n"
+"    "
+msgstr ""
+"Hola, {{nombre de usuario}}. <br><br>\n"
+"    Aquí está la factura de su suscripción en {{site_name}}. La factura vence el {{due_date}}. Puedes usar el botón de abajo para pagarlo. Háganos saber si tiene alguna pregunta. <br><br>\n"
+"    <a href='{{payment_link}}'>Haga clic aquí para pagar</a>\n"
+"    "
+
+#: ../inc/class-wu-gateway-woocommerce.php:537
+msgid "Invoice for Subscription on {{site_name}}"
+msgstr "Factura por suscripción en {{site_name}}"
+
+#: ../inc/class-wu-gateway-woocommerce.php:536
+msgid "Payment Invoice"
+msgstr "Factura de pago"
+
+#: ../inc/class-wu-gateway-woocommerce.php:513
+msgid "Pay"
+msgstr "Pagar"
+
+#: ../inc/class-wu-gateway-woocommerce.php:503
+msgid "See Order on WooCommerce"
+msgstr "Ver pedido en WooCommerce"
+
+#: ../inc/class-wu-gateway-woocommerce.php:493
+msgid "Mark as Paid"
+msgstr "Marcar como pagado"
+
+#: ../inc/class-wu-gateway-woocommerce.php:493
+msgid "If you have received this payment, use this option to confirm the payment. The user will receive a new invoice marked as paid and an email confirming the payment. Marking this as Paid here will not mark the correspondent order on WooCommerce as completed."
+msgstr "Si ha recibido este pago, use esta opción para confirmar el pago. El usuario recibirá una nueva factura marcada como pagada y un correo electrónico confirmando el pago. Marcar esto como pagado aquí no marcará el pedido correspondiente en WooCommerce como completado."
+
+#: ../inc/class-wu-gateway-woocommerce.php:453
+msgid "An error occurred trying to update this transaction."
+msgstr "Se ha producido un error al intentar actualizar esta transacción."
+
+#: ../inc/class-wu-gateway-woocommerce.php:442
+msgid "Transaction updated, sucessfully."
+msgstr "Transacción actualizada con éxito."
+
+#: ../inc/class-wu-gateway-woocommerce.php:427
+msgid "User ID: %s - Manual Payment: %s %s payment received, transaction ID %s"
+msgstr "ID de usuario: %s - Pago manual: %s %s pago recibido, ID de transacción %s"
+
+#: ../inc/class-wu-gateway-woocommerce.php:364
+msgid "Order set as completed by WP Ultimo."
+msgstr "Orden establecida como completada por WP Ultimo."
+
+#: ../inc/class-wu-gateway-woocommerce.php:358
+msgid "WooCommerce order not found."
+msgstr "No se ha encontrado el pedido de WooCommerce."
+
+#: ../inc/class-wu-gateway-woocommerce.php:344
+#: ../inc/class-wu-gateway-woocommerce.php:945
+msgid "Subscription not found."
+msgstr "Suscripción no encontrada."
+
+#: ../inc/class-wu-gateway-woocommerce.php:333
+#: ../inc/class-wu-gateway-woocommerce.php:934
+msgid "Transaction not found."
+msgstr "Transacción no encontrada."
+
+#: ../inc/class-wu-gateway-woocommerce.php:321
+#: ../inc/class-wu-gateway-woocommerce.php:913
+msgid "A valid transaction id is necessary."
+msgstr "Es necesaria una identificación de transacción válida."
+
+#: ../inc/class-wu-gateway-woocommerce.php:311
+#: ../inc/class-wu-gateway-woocommerce.php:903
+msgid "You don't have permissions to perform that action."
+msgstr "No tienes permisos para realizar esa acción."
+
+#: ../inc/class-wu-gateway-woocommerce.php:284
+msgid "User ID: %s - WooCommerce Payment: %s %s payment received, transaction ID %s"
+msgstr "ID de usuario: %s - Pago de WooCommerce: %s %s pago recibido, ID de transacción %s"
+
+#: ../inc/class-wu-gateway-woocommerce.php:264
+#: ../inc/class-wu-gateway-woocommerce.php:267
+#: ../inc/class-wu-gateway-woocommerce.php:410
+msgid "Payment for the plan %s - The account will now be active until %s"
+msgstr "Pago por el plan %s - La cuenta ahora estará activa hasta %s"
+
+#: ../inc/class-wu-gateway-woocommerce.php:180
+msgid "Go to the Subscription on WP Ultimo"
+msgstr "Ir a la suscripción en WP Ultimo"
+
+#: ../inc/class-wu-gateway-woocommerce.php:141
+#: ../inc/class-wu-gateway-woocommerce.php:1335
+#: ../inc/class-wu-gateway-woocommerce.php:1336
+msgid "Dynamic Payments"
+msgstr "Pagos dinámicos"
+
+#: ../inc/class-wu-addon-updater.php:190
+msgid "Put the code you received alongside the add-on when you finalized your purchase."
+msgstr "Coloque el código que recibió junto con el complemento cuando finalizó su compra."
+
+#: ../inc/class-wu-addon-updater.php:179
+msgid "You have a golden ticket license. There's no need to activate each add-on individually."
+msgstr "Tienes una licencia de Acceso de oro. No hay necesidad de activar cada complemento individualmente."
+
+#: ../inc/class-wu-addon-updater.php:178 ../inc/class-wu-addon-updater.php:189
+msgid "License Key - %s"
+msgstr "Clave de licencia -%s"
+
+#: ../inc/class-wu-addon-updater.php:163
+msgid "Use the license key you received with the add-on files to activate your copy and be notified of new versions automatically."
+msgstr "Use la clave de licencia que recibió con los archivos adicionales para activar su copia y recibir notificaciones de nuevas versiones automáticamente."
+
+#: ../inc/class-wu-addon-updater.php:162
+msgid "Activate your Add-ons"
+msgstr "Activa tus complementos"
+
+#: ../inc/class-wu-addon-updater.php:123
+msgid "Status: Not Activated - Invalid License Key"
+msgstr "Estado: No activado - Clave de licencia inválida"
+
+#: ../inc/class-wu-addon-updater.php:117
+msgid "Status: License no longer valid - Refund issued"
+msgstr "Estado: Licencia ya no es válido - Reembolso emitido"
+
+#: ../inc/class-wu-addon-updater.php:113
+msgid "Status: Activated"
+msgstr "Estado: Activado"
+
+#: ../inc/class-wu-addon-updater.php:103
+msgid "Status: Activated - Golden Ticket"
+msgstr "Estado: Activado - Acceso de oro"
+
+#: ../wp-ultimo-woocommerce.php:211
+msgid "WP Ultimo: WooCommerce Integration requires WooCommerce to be activated at least on your main site."
+msgstr "WP Ultimo: la integración de WooCommerce requiere que WooCommerce esté activado al menos en su sitio principal."
+
+#: ../wp-ultimo-woocommerce.php:200
+msgid "WP Ultimo: WooCommerce Integration requires WP Ultimo version 1.5.0. "
+msgstr "WP Ultimo: la integración de WooCommerce requiere la versión 1.5.0 de WP Ultimo. "
+
+#: ../wp-ultimo-woocommerce.php:68
+msgid "WP Ultimo: WooCommerce Integration"
+msgstr "WP Ultimo: Integración WooCommerce"
